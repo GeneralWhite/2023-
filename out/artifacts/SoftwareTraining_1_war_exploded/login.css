@@ -1,0 +1,134 @@
+body,
+html,
+div {
+  padding: 0;
+  margin: 0;
+}
+
+#head {
+  width: 100%;
+  height: 43px;
+}
+#head ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#head ul li {
+  float: left;
+}
+#head ul li {
+  display: block;
+  width: 140px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+#head ul li a:hover {
+  background-color: gray;
+}
+
+#foot {
+  width: 100%;
+  height: 42px;
+  margin-top: 10px;
+}
+#foot ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#foot ul li {
+  float: left;
+}
+#foot ul li a {
+  display: block;
+  width: 250px;
+  color: grey;
+  background-color: white;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+* {
+  text-decoration: none;
+}
+a {
+  color: blue;
+}
+
+.header a {
+  width: 50%;
+  height: 60px;
+  background-color: #f5f5f5;
+  display: inline-block;
+  float: left;
+  /*居中*/
+  text-align: center;
+  line-height: 60px;
+  color: #262626;
+}
+
+.header a.current {
+  background-color: transparent;
+  color: blue;
+}
+
+#body {
+  margin: 2rem;
+}
+
+.dom {
+  width: 100%;
+  display: none;
+}
+
+#username1, #password1, #valid, #username2, #password2, #phone, #email {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+#s1 {
+  margin-bottom: 1rem;
+}
+
+#log, #res, #register {
+  width: 100%;
+  height: 2rem;
+  border: none;
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #FF4500;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+/* 背景 */
+body {
+  background-image: url('bg.jpg');
+}
+
+/* 表单 */
+#content {
+  border: solid 2px #e0e0e0;
+  width: 25rem;
+  height: 33rem;
+  background-color: white;
+  /* 将左右外边距设置为auto以实现水平居中 */
+  margin: 50px auto 0;
+  float: none; /* 清除浮动 */
+  border-radius: 7px;
+}
